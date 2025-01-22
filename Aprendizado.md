@@ -1,4 +1,4 @@
-O que aprendemos nesta primeira aula do curso da Udemy com ( Prof. Nelio Alves ).
+O que aprendemos nesta primeira aula do curso da Udemy.
 
 Conceitos.
 * Sistema web e recursos.
@@ -10,3 +10,5 @@ Conceitos.
 * Controler, Service, Repository
 * Padrao DTO.
 * Salvar no Github.
+
+( Prof. Nelio Alves ).
