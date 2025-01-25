@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.br.mpss.Estudando.Java.Spring.Boot.Jpa.DTO.GameDTO;
-import com.br.mpss.Estudando.Java.Spring.Boot.Jpa.Entities.Game;
-import com.br.mpss.Estudando.Java.Spring.Boot.Jpa.Services.GameService;
+
 
 @RestController
 @RequestMapping(value = "/gamesid")

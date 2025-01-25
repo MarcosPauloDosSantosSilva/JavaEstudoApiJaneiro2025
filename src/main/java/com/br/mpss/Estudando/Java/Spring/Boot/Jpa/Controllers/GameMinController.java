@@ -3,6 +3,7 @@ package com.br.mpss.Estudando.Java.Spring.Boot.Jpa.Controllers;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +20,7 @@ public class GameMinController {
 	@Autowired
 	private GameMinDto gameDto;
 	
-	@GetMapping
+	@Transactional(readOnly = true)
 	public List<GameMinDTO>findAll(){
 		List<GameMinDTO> result = gameDto.findAll();
 		return result;
